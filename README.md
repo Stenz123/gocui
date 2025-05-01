@@ -88,23 +88,3 @@ func quit(g *gocui.Gui, v *gocui.View) error {
 ![_examples/demo.go](https://cloud.githubusercontent.com/assets/1223476/5992750/720b84f0-aa36-11e4-88ec-296fa3247b52.png)
 
 ![_examples/dynamic.go](https://cloud.githubusercontent.com/assets/1223476/5992751/76ad5cc2-aa36-11e4-8204-6a90269db827.png)
-
-## Projects using gocui
-
-* [komanda-cli](https://github.com/mephux/komanda-cli): IRC Client For Developers.
-* [vuls](https://github.com/future-architect/vuls): Agentless vulnerability scanner for Linux/FreeBSD.
-* [wuzz](https://github.com/asciimoo/wuzz): Interactive cli tool for HTTP inspection.
-* [httplab](https://github.com/gchaincl/httplab): Interactive web server.
-* [domainr](https://github.com/MichaelThessel/domainr): Tool that checks the availability of domains based on keywords.
-* [gotime](https://github.com/nanohard/gotime): Time tracker for projects and tasks.
-* [claws](https://github.com/thehowl/claws): Interactive command line client for testing websockets.
-* [terminews](http://github.com/antavelos/terminews): Terminal based RSS reader.
-* [diagram](https://github.com/esimov/diagram): Tool to convert ascii arts into hand drawn diagrams.
-* [pody](https://github.com/JulienBreux/pody): CLI app to manage Pods in a Kubernetes cluster.
-* [kubexp](https://github.com/alitari/kubexp): Kubernetes client.
-* [kcli](https://github.com/cswank/kcli): Tool for inspecting kafka topics/partitions/messages.
-* [fac](https://github.com/mkchoi212/fac): git merge conflict resolver
-* [jsonui](https://github.com/gulyasm/jsonui): Interactive JSON explorer for your terminal.
-* [cointop](https://github.com/miguelmota/cointop): Interactive terminal based UI application for tracking cryptocurrencies.
-
-Note: if your project is not listed here, let us know! :)
