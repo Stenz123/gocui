@@ -54,11 +54,11 @@ type View struct {
 	Highlight bool
 
 	// If Frame is true, a border will be drawn around the view.
-	// If FrameColor is set, the frame will take on this color. The color
-	// is overwritten by the focus color and will be ignored if set to
+	// If FrameColor or FrameBgColor is set, the frame will take on this color.
+	// The color is overwritten by the focus color and will be ignored if set to
 	// the ColorDefault e.g. 0.
-	Frame      bool
-	FrameColor Attribute
+	Frame                    bool
+	FrameColor, FrameBgColor Attribute
 
 	// If Wrap is true, the content that is written to this View is
 	// automatically wrapped when it is longer than its width. If true the

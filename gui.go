@@ -448,7 +448,11 @@ func (g *Gui) flush() error {
 				} else {
 					fgColor = v.FrameColor
 				}
-				bgColor = g.BgColor
+				if v.FrameBgColor == 0 {
+					bgColor = g.BgColor
+				} else {
+					bgColor = v.FrameBgColor
+				}
 			}
 
 			if err := g.drawFrameEdges(v, fgColor, bgColor); err != nil {

@@ -56,7 +56,10 @@ func layout(g *gocui.Gui) error {
 			return err
 		}
 		v.Title = "v3"
-		fmt.Fprint(v, "I am default")
+
+		v.FrameBgColor = gocui.ColorBlue
+
+		fmt.Fprint(v, "I am default but my border is \033[34;1mblue\033[0m")
 	}
 	if v, err := g.SetView("v4", maxX/2, maxY/2, maxX-1, maxY-1); err != nil {
 		if err != gocui.ErrUnknownView {
