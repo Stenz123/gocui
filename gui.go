@@ -443,7 +443,11 @@ func (g *Gui) flush() error {
 				fgColor = g.SelFgColor
 				bgColor = g.SelBgColor
 			} else {
-				fgColor = g.FgColor
+				if v.FrameColor == 0 {
+					fgColor = g.FgColor
+				} else {
+					fgColor = v.FrameColor
+				}
 				bgColor = g.BgColor
 			}
 
